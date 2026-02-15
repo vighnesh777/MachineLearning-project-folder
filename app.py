@@ -22,7 +22,7 @@ This app lets users to upload the dataset csv file , train using different ML mo
 
 sl.sidebar.header("Config")
 uploaded_file = sl.sidebar.file_uploader("Upload CSV file with data", type=["csv"])
-model_name = sl.sidebar.selectbox("Choose Model",["XGBoost","Log Regression","K-th Nearest Neighbours","Naive Bayes","Random Forest","Descision Tree"])
+model_name = sl.sidebar.selectbox("Choose Model",["Log Regression","K-th Nearest Neighbours","Naive Bayes","Random Forest","Descision Tree","XGBoost"])
 sl.sidebar.markdown("---")
 sl.sidebar.write("Model Settings")
 
